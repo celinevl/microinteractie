@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/fonts/fonts.css">
+    <title>LOG IN</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+           <li><a href="index.html" class="tablinks">Home</a></li>
+            <li><a href="form.html" class="tablinks">Login</a></li>
+            <li><a href="leeslijst.html" class="tablinks">Leeslijst</a></li>
+        </ul>
+    </nav>
+
+    <h1>Inloggen of registreren</h1>
+
+    <form action="index.html">
+        <fieldset>
+            <legend>Bestaande gebruiker</legend>
+            <label for="gebruikersnaam">Username:</label>
+            <input type="text" name="gebruikersnaam" id="gebruikersnaam" placeholder="Verplicht" required>
+            <label for="wachtwoord">Wachtwoord:</label>
+            <input type="password" name="wachtwoord" id="wachtwoord" placeholder="Verplicht" required>
+            <button class="login">Inloggen</button>
+        </fieldset>
+</form>
+        
+<form action="index.html">
+        <fieldset>
+            <legend>Nieuw Account</legend>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Verplicht" required>
+
+            <label for="password">Wachtwoord:</label>
+            <input type="password" name="password" id="password" pattern="[a-zA-Z0-9]{6,}" placeholder="Minimaal 6 letters" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Verplicht" required>
+
+            <label for="man">Man:</label>
+            <input type="radio" name="geslacht" id="man">
+            <label for="vrouw">Vrouw:</label>
+            <input type="radio" name="geslacht" id="vrouw">
+
+            <label for="date">Geboortedatum:</label>
+            <input type="date" name="geboortedatum" id="date" placeholder="dd/mm/yyyy">
+
+            <label for="tel">Telefoon nummer:</label>
+            <input type="tel" name="tel" id="tel">
+
+            <button class="login">Aanmelden</button>
+        </fieldset>
+    </form>
+    
+
+</body>
+
+</html>

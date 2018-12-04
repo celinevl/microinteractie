@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "dfds-bold";
+    src: url(./styles/fonts/dfds-bold.woff);
+}
+
+@font-face {
+    font-family: "dfds-light";
+    src: url(./styles/fonts/dfds-light.woff);
+}
+
